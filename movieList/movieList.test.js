@@ -4,7 +4,7 @@ require("chromedriver");
 
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build();
 
-// First we're going to navigate to Google.com
+// First we're going to navigate to the path below..
 beforeAll(async () => {
   await driver.get(
     "file:///Users/mymac/Desktop/DevMTExercises/automation/movieList/index.html"
